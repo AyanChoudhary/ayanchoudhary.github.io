@@ -20,7 +20,7 @@ export default function StartupProject() {
             {bigProjects.projects.map(project => {
               return (
                 <div className="saaya-health-div" onClick={() => openProjectInNewWindow(project.link)}>
-                  <img alt="Saad Working" src={project.image} style={{ width: "120px", padding: "8px" }}></img>
+                  <img alt="Ayan Working" src={project.image} style={{ width: "120px", padding: "8px" }}></img>
                 </div>
               );
             })}
