@@ -69,12 +69,20 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-swift"
     },
     {
+      skillName: "android",
+      fontAwesomeClassname: "fab fa-android"
+    },
+    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "github",
+      fontAwesomeClassname: "fab fa-github"
     },
     {
       skillName: "aws",
@@ -126,10 +134,11 @@ const workExperiences = {
       company: "SDSlabs",
       companylogo: require("./assets/images/sds.webp"),
       date: "January 2019 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      desc: "Executive Member of the student group which fosters technical culture in our campus and strives to promote open source software development within the campus and the community as a whole.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Regularly conducted hackathons, public lectures, and competitions to foster the technical culture in the campus.",
+        "Responsible for maintaining current applications and server management.",
+        "Mentored students in SDS Winter of Code 2019 and the new recruits."
       ]
     },
     {
@@ -137,14 +146,21 @@ const workExperiences = {
       company: "SPARK IIT Roorkee",
       companylogo: require("./assets/images/spark.webp"),
       date: "October 2019 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "Developed some of the key features of the current website and am responsible for maintaining the current cloud configurations and to keep the website running. Was responsible for scaling the website from a single monolith to a distributed kubernetes configuration.",
+      descBullets: [
+        "Scaled the website from a monolith to a distributed kubernetes configuration."
+      ]
     },
     {
       role: "GSoC'2020 Intern",   
       company: "Creative Commons",
       companylogo: require("./assets/images/cc.webp"),
       date: "May 2020 – August 2020",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: "GSoC intern for improving the accessibility of cc-search and also internationalizing it.",
+      descBullets: [
+        "Ran accessibility audits and improved the overable accessiblity of thr site.",
+        "Internationalized the website and setp internationalization architecture."
+      ]
     }
   ]
 };
@@ -161,20 +177,20 @@ const openSource = {
 
 // Some Big Projects You have worked with your company
 
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
-  projects: [
-    {
-      image: require("./assets/images/cc.webp"),
-      link: "https://creativecommons.org/"
-    },
-    {
-      image: require("./assets/images/publiclab.webp"),
-      link: "https://publiclab.org/"
-    }
-  ]
-};
+// const bigProjects = {
+//   title: "Big Projects",
+//   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+//   projects: [
+//     {
+//       image: require("./assets/images/cc.webp"),
+//       link: "https://creativecommons.org/"
+//     },
+//     {
+//       image: require("./assets/images/publiclab.webp"),
+//       link: "https://publiclab.org/"
+//     }
+//   ]
+// };
 
 // Your Achievement Section Include Your Certification Talks and More
 
@@ -263,4 +279,4 @@ const twitterDetails = {
   userName : "ayan_darkrider"//Replace "twitter" with your twitter username without @
   
 };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, contactInfo , twitterDetails};
