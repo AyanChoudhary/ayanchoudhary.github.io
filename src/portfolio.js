@@ -235,6 +235,21 @@ const blogSection = {
       url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week1-2/",
       title: "CC Search, Setting up vue-i18n and internationalizing homepage",
       description: "Setting up internationalization in the CC search website"
+    },
+    {
+      url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week3-4/",
+      title: "Internationalization Continued: Handling strings in the store",
+      description: ""
+    },
+    {
+      url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week5-6/",
+      title: "Internationalization continued: Modifying tests",
+      description: ""
+    },
+    {
+      url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week7-8/",
+      title: "CC Search, Initial Accessibility Improvements",
+      description: ""
     }
   ]
 };
