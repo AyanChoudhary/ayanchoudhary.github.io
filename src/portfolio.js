@@ -239,17 +239,27 @@ const blogSection = {
     {
       url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week3-4/",
       title: "Internationalization Continued: Handling strings in the store",
-      description: ""
+      description: "Solving the problem of internationalizing strings in Vuex store"
     },
     {
       url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week5-6/",
       title: "Internationalization continued: Modifying tests",
-      description: ""
+      description: "Any good project comes with its test suite ready to catch any breaking changes, how we modify tests to accomodate i18n"
     },
     {
       url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week7-8/",
       title: "CC Search, Initial Accessibility Improvements",
-      description: ""
+      description: "Research and setting up the workflow for accessibility changes in the CC search website"
+    },
+    {
+      url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-week9-10/",
+      title: "Accessibility Improvements: Final Changes and Modal Accessilibity",
+      description: "Some niche accessibility changes and a deeper insight to the accessibility parameters"
+    },
+    {
+      url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-wrapup/",
+      title: "Accessibility and Internationalization: WrapUp GSoC 2020",
+      description: "The final blog wrapping up my work for the GSoC 2020 with Creative Commons"
     }
   ]
 };
@@ -289,9 +299,9 @@ const contactInfo = {
 
 //Twitter Section
 
-// const twitterDetails = {
+const twitterDetails = {
 
-//   userName : "ayan_darkrider"//Replace "twitter" with your twitter username without @
+  userName : "ayan_darkrider"//Replace "twitter" with your twitter username without @
   
-// };
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, contactInfo };
+};
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, contactInfo, twitterDetails };
