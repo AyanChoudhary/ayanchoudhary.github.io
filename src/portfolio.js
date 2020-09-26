@@ -289,9 +289,9 @@ const contactInfo = {
 
 //Twitter Section
 
-const twitterDetails = {
+// const twitterDetails = {
 
-  userName : "ayan_darkrider"//Replace "twitter" with your twitter username without @
+//   userName : "ayan_darkrider"//Replace "twitter" with your twitter username without @
   
-};
-export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, contactInfo , twitterDetails};
+// };
+export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, achievementSection, blogSection, contactInfo };
