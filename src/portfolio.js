@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Ayan Choudhary",
   title: "Hello!! I am Ayan",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building web and cloud systems. Currently exploring low-level system programming and writing an OS in Rust."),
   resumeLink: "https://drive.google.com/file/d/1qx1GzfsYz0sPHRCuCr-Q9SCfHXDy8eqs/view?usp=sharing"
 };
 
@@ -17,7 +17,7 @@ const greeting = {
 
 const socialMediaLinks = {
 
-  github: "https://github.com/AyanChoudhary",
+  github: "https://github.com/ayanchoudhary",
   linkedin: "https://www.linkedin.com/in/ayanchoudhary/",
   gmail: "ayanchoudhary1025@gmail.com",
   facebook: "https://www.facebook.com/ayan.choudhary.790",
@@ -29,11 +29,11 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY SOFTWARE DEVELOPER WHO LOVES CLOUD AND OPERATING SYSTEMS",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Develop Full stack for your web and mobile applications"),
+    emoji("⚡ Work on cloud applications and distributed system architecture pipelines"),
+    emoji("⚡ Implement OS modules and other low-level system design and optimizations")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -63,10 +63,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
     },
     {
       skillName: "android",
@@ -130,11 +126,11 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Developer",  
+      role: "Joint Secretary",  
       company: "SDSlabs",
       companylogo: require("./assets/images/sds.webp"),
       date: "January 2019 – Present",
-      desc: "Executive Member of the student group which fosters technical culture in our campus and strives to promote open source software development within the campus and the community as a whole.",
+      desc: "Joint Secretary of the student group which fosters technical culture in our campus and strives to promote open source software development within the campus and the community as a whole.",
       descBullets: [
         "Regularly conducted hackathons, public lectures, and competitions to foster the technical culture in the campus.",
         "Responsible for maintaining current applications and server management.",
@@ -158,10 +154,34 @@ const workExperiences = {
       date: "May 2020 – August 2020",
       desc: "GSoC intern for improving the accessibility of cc-search and also internationalizing it.",
       descBullets: [
-        "Ran accessibility audits and improved the overable accessiblity of thr site.",
-        "Internationalized the website and setp internationalization architecture."
+        "Ran accessibility audits and improved the overable accessiblity of the site.",
+        "Internationalized the website and setup internationalization architecture with Transifex."
       ]
-    }
+    },
+    {
+      role: "MLH Fellow",   
+      company: "Adobe",
+      companylogo: require("./assets/images/adobe.webp"),
+      date: "February 2021 – April 2021",
+      desc: "MLH Fellow at Adobe for developing plugin samples for Adobe Photoshop and XD",
+      descBullets: [
+        "Developed plugin samples for Adobe Photoshop and Adobe XD that demonstrated use of the Adobe UXP APIs.",
+        "Upgraded the manifest systems for the existing plugins from v3 to v4 and changed plugins to follow the newer version.",
+        "Made significant contributions to the Adobe community to make the plugins more presentable to developers."
+      ]
+    },
+    {
+      role: "Software Development Intern",   
+      company: "Microsoft",
+      companylogo: require("./assets/images/ms.webp"),
+      date: "June 2021 – July 2021",
+      desc: "Summer Intern for SDE profile at Microsoft India.",
+      descBullets: [
+        "Developed an integration system which acts a backup service for messages from MS Teams to Dataverse.",
+        "Configured a serverless system built using tools from the Microsoft ecosystem such as MS Flows and Azure Function Apps.",
+        "Enhanced reportability by integrating with Application Insights and leveraging Power BI to generate usage reports."
+      ]
+    },
   ]
 };
 
@@ -260,6 +280,16 @@ const blogSection = {
       url: "https://opensource.creativecommons.org/blog/entries/cc-search-accessibility-wrapup/",
       title: "Accessibility and Internationalization: WrapUp GSoC 2020",
       description: "The final blog wrapping up my work for the GSoC 2020 with Creative Commons"
+    },
+    {
+      url: "https://aws.plainenglish.io/running-unreal-engine-4-ue4-on-aws-virtual-machine-e6fdbd177fb1",
+      title: "Running Unreal Engine 4(UE4) on AWS Virtual Machine",
+      description: "Have a potato PC, fret not. You can now run Unreal Engine on an AWS Virtual Machine"
+    },
+    {
+      url: "https://medium.com/adobetech/developing-an-oauth-sample-for-adobe-photoshop-999148f422d3",
+      title: "Developing an OAuth Sample for Adobe Photoshop",
+      description: "My journey in developing the OAuth developer sample plugin for Adobe Photoshop"
     }
   ]
 };
